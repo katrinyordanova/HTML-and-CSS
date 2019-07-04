@@ -1,0 +1,87 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 5rem;
+}
+
+form {
+    display: block;
+}
+
+form fieldset {
+    display: block;
+    background: rgb(249, 249, 249);
+    border-radius: 5px;
+}
+
+form legend {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: rgb(249, 249, 249);
+    width: 10%;
+    padding: 0.5rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form .information {
+    display: block;
+    padding: 2rem;
+}
+
+form fieldset p {
+    padding-bottom: 0.5rem;
+}
+
+.icon-color {
+    position: relative;
+}
+
+input:not(:last-child) {
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 5px;
+}
+
+.icon-color:hover {
+    border: 1px solid green;
+    border-radius: 5px;
+    color: green;
+}
+
+.icon-color i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 1px 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border: 1px solid rgb(243, 250, 243);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+form input[type="submit"] {
+    width: 2.8%;
+    cursor: pointer;
+}

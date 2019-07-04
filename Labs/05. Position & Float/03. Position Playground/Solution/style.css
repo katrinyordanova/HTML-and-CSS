@@ -1,0 +1,14 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+.viewport{
+   text-align: center; 
+}
+
+.viewport:nth-child(1){
+    background-image: linear-gradient(to right, #185b9d, #007bb4, #0098ba, #00b4b2, #42cda2);
+    
+}
+
+.viewport:nth-child(2){
+    background-image: linear-gradient(to right, #a83278, #c53764, #d5494b, #da6431, #d28212);
+}

@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    background: rgb(255,255,255);
+    border:  none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0 0.3rem;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    padding-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: flex;
+    list-style: none outside;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    background: rgb(45, 45, 45);
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 0.2rem;
+    font-size: 13px;
+}

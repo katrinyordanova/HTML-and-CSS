@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+.star{
+    border: solid;
+    color: white;
+    background-color: green;
+    padding: 9px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.envelope{
+    border: solid;
+    color: white;
+    background-color: orange;
+    padding: 9px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}

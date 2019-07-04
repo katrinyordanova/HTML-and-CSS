@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+html{
+    background: rgb(238, 238, 238);
+}
+
+.body{
+    background: rgb(238, 238, 238);
+}
+
+.card{
+    border: 1px solid grey;
+    position: center;
+}
+
+.description{
+   margin: 1.5rem;
+   background:  rgb(255, 255, 255); 
+}
+
+.description h3{
+   font-family:  Georgia, serif;
+   font-size: 1em/1.2;
+   padding-bottom: 1rem;
+}
+
+.description p{
+    font-size: 20px;
+    width: 50%;
+}
+
+.description a{
+    border: 1px solid rgb(0, 153, 0);
+    border-radius: 5px;
+    color: white;
+    background: rgb(0, 153, 0);
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+img{
+    position: absolute;
+    width: 300px;
+    height: auto;
+}

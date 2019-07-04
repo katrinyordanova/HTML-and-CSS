@@ -1,0 +1,28 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 600px) {
+    .mq-width > span::after {
+        content: 'Viewport width is larger than 600px';
+    }
+}
+
+@media only screen and (min-height: 600px) {
+    .mq-height > span::after {
+        content: 'Viewport height is larger than 600px';
+    }
+}
+
+@media (min-aspect-ratio: 8/5){
+    .mq-ar > span::after {
+        content: 'Aspect ratio is larger than 8/5';
+    }
+}

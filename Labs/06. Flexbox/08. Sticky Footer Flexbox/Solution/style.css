@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;;
+}
+
+header{
+    border-bottom: 3px solid rgb(0,0,0);
+    width: 100%;
+}
+
+header h1{
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+main{
+    margin: 2.5rem 1.5rem;
+}
+
+main p{
+    padding: 0.8rem 0;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+}

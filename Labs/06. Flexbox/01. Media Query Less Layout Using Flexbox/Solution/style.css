@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: rgb(238, 238, 238);
+}
+
+header,main,aside,footer{
+    margin: 1rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px #ccc;
+}
+
+header {
+    height: 7rem;
+    width: 82rem;
+    padding: 2rem;
+}
+
+main {
+    height: 15rem;
+    width: 60rem;
+    padding: 2rem;
+}
+
+aside {
+    height: 15rem;
+    width: 20rem;
+    padding: 2rem;
+}
+
+footer{
+    height: 3.5rem;
+    width: 82rem;
+    padding: 1rem;
+}

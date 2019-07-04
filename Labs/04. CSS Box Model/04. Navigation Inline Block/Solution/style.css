@@ -1,0 +1,44 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font: 16px;
+    line-height: 1.2;
+}
+
+article{
+    padding: 3.5rem;
+    width: 0 auto;
+}
+
+header{
+    border-bottom: 2px solid black;
+    padding: auto;
+    width: 0 auto;
+}
+
+header h1{
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font: 1em;
+    line-height: 1.2;
+    margin: auto;
+    padding: 2.5rem;
+}
+
+nav{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+main{
+    width: 0 auto;
+    padding: 2.5rem;
+}

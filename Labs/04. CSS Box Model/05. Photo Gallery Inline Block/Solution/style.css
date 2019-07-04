@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(238,238,238);
+}
+
+.column{
+    float: left;
+    width: 0 auto;
+    padding: 5px;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img{
+    border: 5px solid black;
+    padding: 15px;
+    float: left;
+    width: 0 auto;
+    display: inline-block;
+}
+
+.row > div{
+    width: 0 auto;
+    height: auto;
+}
+
+.row > div img{
+    max-height: 0 auto;
+  }

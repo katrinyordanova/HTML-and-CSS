@@ -1,0 +1,133 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+h1,h2,h3{padding: 1rem 0;}
+
+h1{
+    font-family: Georgia, serif;
+}
+
+h2{
+    padding-top: 1rem;
+}
+
+p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+section{
+    padding-bottom: 1rem;
+}
+
+header, article{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.first-section h1{
+    font-size: 30px;
+    margin: 0.5rem 0;
+}
+
+.first-section img{
+    float: right;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second-section h2{
+    font-size: 25px;
+}
+
+.second-section p:nth-child(3){
+    width: 50%;
+}
+
+.vl{
+    border-left: 6px solid grey;
+    height: 172.8px;
+    position: right;margin-left: 2rem;
+}
+
+blockquote{
+    font-style: italic;
+    padding-left: 2rem;
+    width: 50%;
+    float: right;
+    font-family: Georgia, serif
+}
+
+blockquote p:nth-child(2){
+    text-align: right;
+   
+}
+
+.third-section img{
+    float: left;
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 499px){
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+     html {
+         font-size: 16px;
+     }
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    } 
+}
+
+@media only screen and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}

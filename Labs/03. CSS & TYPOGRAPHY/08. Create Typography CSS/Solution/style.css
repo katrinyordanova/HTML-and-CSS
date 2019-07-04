@@ -1,0 +1,30 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+blockquote{
+    font: italic;
+}
+
+thead{
+    background-color: grey;
+}
+
+td{
+    border: 1px solid rgb(148, 142, 142);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(202, 192, 192);
+}
+
+.verticalLine{
+    border-left: 5px solid rgb(221,221,221);
+    padding-left: 2.5rem;
+}

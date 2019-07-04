@@ -1,0 +1,250 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT serif', serif;
+    padding-bottom: 1em;
+}
+
+h1{font-size: 3.0rem;}
+h2{font-size: 2.6rem;}
+h3{font-size: 2.2rem;}
+h4{font-size: 2.6rem;}
+h5{font-size: 1.4rem;}
+h6{font-size: 2.2rem;}
+
+p, ul, ol{padding-bottom: 1rem;}   
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-header{
+    background-color: rgb(241,245,248); 
+    /* padding: 0 0.8rem; */
+}
+
+.site-header h1{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.site-header nav{
+    display: inline-block; 
+}
+
+.site-header ul li{
+    display: inline-block;
+    border: 2px solid rgb(255,127,80);
+    background-color: rgb(255,127,80);
+    border-radius: 5px;
+    padding: 0.2rem; 
+    margin: 0.2rem;
+}
+
+.site-header ul li:not(:last-child){
+    margin-right: 0.8rem;
+}
+
+.site-header ul li a{
+    color: rgb(255,255,255);
+
+}
+    
+.site-header ul li a:before{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f015';
+    display: inline-block;
+    font-weight: 980;
+    padding-right: 0.3rem; 
+}
+
+.site-header ul li:nth-child(2) > a::before{
+    content: '\f2bb';
+}
+
+.site-header ul li:nth-child(3) > a::before{
+    content: '\f182'; 
+}
+
+.site-header ul li:nth-child(4) > a::before{
+    content: '\f249';
+}
+
+.site-header ul li:nth-child(5) > a::before{
+    content: '\f2b9';
+}
+
+.header-title{
+    display: inline-block; 
+    font-family: 'Pacifico', serif;
+    color: rgb(255,127,80);
+    font-size: 30px;
+    width: 35em;
+}
+
+main p{
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.main-image{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('/Requirements-and-Resources/img/brooke-lark-210780-unsplash\ \(1\).jpg');
+    padding: 20rem 0;
+    background-size: cover;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.main-image h1{
+    letter-spacing: 2px;
+    width: 40%;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px rgba(38,16,10,0.81);
+}
+
+.main-image p{
+    width: 38%;
+}
+
+.site-info{
+    background: rgb(255,127,80);
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.site-info h2{
+    padding: 2.5rem 0;
+    text-transform: uppercase;
+}
+
+.site-info p{
+    width: 40%;
+}
+
+.site-info button{
+    display: inline-block;
+    border: 2px solid rgb(255,255,255);
+    background: rgb(255,255,255);
+    color: rgb(255,127,80);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    margin: 50px 0;
+    font-size: 19px;
+    font-weight: 550;
+    text-align: center;
+    cursor: pointer;
+}
+
+.site-info button:hover{
+    color: rgb(255,255,255);
+    background: transparent;
+    border: 2px solid rgb(255,255,255);
+}
+
+.site-works{
+    background: rgb(255,255,255);
+    padding: 1.2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-works h6{
+    font-size: 25px;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.site-works ul li{
+    display: inline-block;
+    width: 32%;
+}
+
+.site-works ul li img{
+    width: 100px;
+    height: auto;
+}
+
+.site-gallery{
+    background: rgb(255, 242, 237);
+    text-align: center;
+}
+
+.site-gallery p{
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.site-gallery ul li{
+    display: inline-block;
+    padding: 1.8rem;
+    vertical-align: middle;
+}
+
+.site-gallery ul li img{
+    width: 250px;
+    border: 2px solid rgb(0,0,0);
+    padding: 2rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.site-footer{
+   background: rgb(255,127,80);
+}
+
+.site-footer p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    padding: 2rem;
+    display: inline-block;
+}
+
+.site-footer li{
+    display: inline-block;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: auto;
+    margin: auto;
+}
+
+.site-footer li a::after{
+    content: '\f09a';
+    font-family: 'Font Awesome 5 Brands';
+    color:  rgb(255,255,255);
+    display: block;
+}
+
+.site-footer li:nth-child(2) > a::after{
+    content: '\f081';
+}
+
+.site-footer li:nth-child(3) > a::after{
+    content: '\f09b';
+}

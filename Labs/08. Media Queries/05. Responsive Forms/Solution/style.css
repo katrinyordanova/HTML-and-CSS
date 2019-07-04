@@ -1,0 +1,87 @@
+@import url('https://use.fontawesome.com/releases/v5.0.7/css/all.css');
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+fieldset {
+    display: block;
+    border-radius: 5px;
+}
+
+fieldset, legend {
+   background: rgb(248, 248, 248); 
+}
+
+legend {
+    display: inline-block;
+    border: 1px solid rgb(196, 188, 188);
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.75);
+    font-size: 18px;
+    padding: 0.5rem;
+    width: 45%;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.info p {
+    padding: 0.3rem;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    width: 5.8rem;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid rgb(238, 228, 228);
+    border-radius: 5px;
+    padding: 0.4rem 0;
+    width: 70%;
+}
+
+.icon {
+   position: relative ;
+}
+
+.icon i {
+    position: absolute;
+    left: 6rem;
+    top: 8px;
+    padding: 0px 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background: rgb(45,45,45);
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
